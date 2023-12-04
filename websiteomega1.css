@@ -11,12 +11,14 @@ background-color: white;
 z-index:9999;
 flex-wrap: wrap;
 justify-content: space-around;
+
 }
 .ath{
     text-decoration: none;
     color: black;
     font-size: larger;
     font-family: 'Hedvig Letters Sans', sans-serif;
+    background-color: rgba(245, 222, 179, 0.497);
 }
 .header{
 height: 80px;
@@ -121,7 +123,7 @@ button{
 .cap3{
     width: 50%;
     height: 498px;
-    border: 1px solid rgba(0, 0, 0, 0.186);
+    border: 1px solid rgba(0, 0, 0, 0);
     text-align: center;
     flex-wrap: wrap;
 }
@@ -148,7 +150,7 @@ position: relative;
 .cap4{
     width: 50%;
     height: 398px;
-    border: 1px solid rgba(0, 0, 0, 0.208);
+    border: 1px solid rgba(0, 0, 0, 0.034);
     text-align: center;
     flex-wrap: wrap;
 }
@@ -243,7 +245,7 @@ and{
      height: 500px;
     width: 90%;
     border: 2px solid rgba(0, 0, 0, 0);
-    margin: 50px;
+    margin: 30px;
     display: flex;
     position: relative;
     flex-wrap: wrap;
@@ -316,25 +318,28 @@ m{
     .cap2{
         margin-left: 10px;
     margin-top: -64px;
+    text-align: left;
     
     }
     .img5{
         display: none;
     }
     .img4 {
-        margin-top: -49px;
+        margin-top: -3px;
         margin-left: 0;
         width: 95%;
     }
     .cap3 {
-        margin-top: 316px;
+        margin-top: 304px;
+        text-align: left;
     }
     .img3{
       
         width: 100%;
     }
     .cap4 {
-        margin-top: 626px;
+        margin-top: 695px;
+        text-align: left;
     }
     .second{
         width: 100%;
@@ -353,7 +358,9 @@ m{
         right: 500px;
     }
    .img9{
-    display: none;
+    width: 100%;
+    margin-right: 14px;
+    margin-top: 1099px;
    }
    .img7{
     display: none;
@@ -362,7 +369,7 @@ m{
     margin-top: 256px;
    }
    .last {
-    margin-top: 464px;
+    margin-top: 765px;
 }
 nav{
     overflow-x: hidden;
@@ -377,5 +384,8 @@ nav{
 }
 .sixth{
    margin-left: 10px;
+}
+.ath{
+    font-size: small;
 }
 }
